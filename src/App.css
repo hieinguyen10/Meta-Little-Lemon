@@ -19,7 +19,7 @@ nav{
 .navbar {
   padding: 10px 13%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -72,7 +72,7 @@ nav ul li a:hover{
 /* header section */
 
 .header {
-  background-color: #495e57;
+  background-color: black;
   padding: 40px 0;
 }
 
@@ -190,8 +190,9 @@ input, label{
 .menu-items{
   /* height: 400px; */
   width: 350px;
-  background: #a9c8be;
+  background: black;
   border-radius: 8px;
+  border: 2px solid black;
 }
 
 .menu-container img{
@@ -201,6 +202,7 @@ input, label{
 }
 
 .menu-content{
+  color:white;
   padding: 5px 15px;
 }
 
@@ -215,6 +217,10 @@ input, label{
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: 600;
+}
+
+footer {
+  background-color: beige;
 }
 
 footer section{
